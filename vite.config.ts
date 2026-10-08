@@ -13,8 +13,8 @@ export default defineConfig({
         short_name: 'LEARNING',
         description:
           'A simple dashboard with quick access to your training portals and courses. Edit, add and remove panels — everything stays in your browser.',
-        theme_color: '#150a0d',
-        background_color: '#150a0d',
+        theme_color: '#161007',
+        background_color: '#161007',
         display: 'standalone',
         start_url: '.',
         icons: [

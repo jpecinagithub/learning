@@ -1,13 +1,13 @@
 :root {
-  --bg: #150a0d;
-  --surface: #201016;
-  --surface-2: #2a141b;
-  --border: #402027;
-  --text: #f5e9ec;
-  --muted: #b99ba1;
-  --accent: #d9485f;
-  --accent-soft: rgba(217, 72, 95, 0.14);
-  --danger: #ff9f43;
+  --bg: #161007;
+  --surface: #211708;
+  --surface-2: #2c1f0c;
+  --border: #463214;
+  --text: #faf3e3;
+  --muted: #c4ad7f;
+  --accent: #ffb627;
+  --accent-soft: rgba(255, 182, 39, 0.14);
+  --danger: #f2555a;
   --radius: 14px;
   --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
@@ -62,7 +62,7 @@ a {
 
 .brand-mark {
   display: inline-flex;
-  filter: drop-shadow(0 4px 14px rgba(245, 165, 36, 0.25));
+  filter: drop-shadow(0 4px 14px rgba(255, 182, 39, 0.28));
 }
 
 .brand-title {
@@ -112,7 +112,7 @@ a {
 }
 
 .btn-primary:hover {
-  background: #e55d72;
+  background: #ffc44d;
 }
 
 .btn-ghost {
@@ -123,7 +123,7 @@ a {
 
 .btn-ghost:hover {
   background: var(--surface-2);
-  border-color: #4d2731;
+  border-color: #5a4320;
 }
 
 .btn-danger-confirm {
@@ -179,7 +179,7 @@ a {
 }
 
 .card:hover {
-  border-color: #4d2731;
+  border-color: #5a4320;
   transform: translateY(-2px);
 }
 
