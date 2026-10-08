@@ -82,6 +82,16 @@ export const SEED_COURSES: Course[] = [
     },
   },
   {
+    id: 'pisa',
+    name: 'PISA Simulator & Global Explorer',
+    url: 'https://pisa-simulator.vercel.app/',
+    icon: '🌍',
+    desc: {
+      en: 'PISA-inspired simulator: 213 original questions, adaptive engine, 93 economies to explore and personalised PDF reports.',
+      es: 'Simulador inspirado en PISA: 213 preguntas originales, motor adaptativo, 93 economías para explorar e informes PDF personalizados.',
+    },
+  },
+  {
     id: 'cybersecurity',
     name: 'Cybersecurity Academy',
     url: 'https://cybersecurity-academy-wogf.vercel.app/',
